@@ -1,0 +1,500 @@
+[2025-02-13 15:55:47] [INFO] [data] [logger.py:73] [INIT] Logger initialized | logger_name: data
+[2025-02-13 15:55:47] [INFO] [scraper] [logger.py:73] [INIT] Logger initialized | logger_name: scraper
+[2025-02-13 15:55:47] [INFO] [crawler] [logger.py:73] [INIT] Logger initialized | logger_name: crawler
+[2025-02-13 15:55:47] [INFO] [crawler] [logger.py:73] [START] Beginning hotel crawl | base_url: https://www.luxe.ru/geo/maldives/hotels
+[2025-02-13 15:55:47] [ERROR] [scraper] [logger.py:82] [CONFIG] Failed to create browser configuration | error: BrowserConfig.__init__() got an unexpected keyword argument 'args'
+Traceback (most recent call last):
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\utils\scraper_utils.py", line 32, in get_browser_config
+    config = BrowserConfig(
+             ^^^^^^^^^^^^^^
+TypeError: BrowserConfig.__init__() got an unexpected keyword argument 'args'
+[2025-02-13 15:55:47] [CRITICAL] [crawler] [logger.py:90] [CONFIG] Failed to initialize crawler configuration | error: BrowserConfig.__init__() got an unexpected keyword argument 'args'
+Traceback (most recent call last):
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\main.py", line 32, in crawl_hotels
+    browser_config = get_browser_config()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\utils\scraper_utils.py", line 32, in get_browser_config
+    config = BrowserConfig(
+             ^^^^^^^^^^^^^^
+TypeError: BrowserConfig.__init__() got an unexpected keyword argument 'args'
+[2025-02-13 15:55:47] [CRITICAL] [crawler] [logger.py:90] [FATAL] Crawl failed with error | error: BrowserConfig.__init__() got an unexpected keyword argument 'args' | traceback: Traceback (most recent call last):
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\main.py", line 32, in crawl_hotels
+    browser_config = get_browser_config()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\utils\scraper_utils.py", line 32, in get_browser_config
+    config = BrowserConfig(
+             ^^^^^^^^^^^^^^
+TypeError: BrowserConfig.__init__() got an unexpected keyword argument 'args'
+Traceback (most recent call last):
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\main.py", line 32, in crawl_hotels
+    browser_config = get_browser_config()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\utils\scraper_utils.py", line 32, in get_browser_config
+    config = BrowserConfig(
+             ^^^^^^^^^^^^^^
+TypeError: BrowserConfig.__init__() got an unexpected keyword argument 'args'
+[2025-02-13 15:55:47] [CRITICAL] [crawler] [logger.py:90] [FATAL] Application terminated with error | error: BrowserConfig.__init__() got an unexpected keyword argument 'args' | traceback: Traceback (most recent call last):
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\main.py", line 209, in main
+    await crawl_hotels()
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\main.py", line 32, in crawl_hotels
+    browser_config = get_browser_config()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\utils\scraper_utils.py", line 32, in get_browser_config
+    config = BrowserConfig(
+             ^^^^^^^^^^^^^^
+TypeError: BrowserConfig.__init__() got an unexpected keyword argument 'args'
+Traceback (most recent call last):
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\main.py", line 209, in main
+    await crawl_hotels()
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\main.py", line 32, in crawl_hotels
+    browser_config = get_browser_config()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\utils\scraper_utils.py", line 32, in get_browser_config
+    config = BrowserConfig(
+             ^^^^^^^^^^^^^^
+TypeError: BrowserConfig.__init__() got an unexpected keyword argument 'args'
+[2025-02-13 16:01:18] [INFO] [data] [logger.py:99] [INIT] Logger initialized | logger_name: data
+[2025-02-13 16:01:18] [INFO] [scraper] [logger.py:99] [INIT] Logger initialized | logger_name: scraper
+[2025-02-13 16:01:18] [INFO] [crawler] [logger.py:99] [INIT] Logger initialized | logger_name: crawler
+[2025-02-13 16:01:18] [INFO] [crawler] [logger.py:99] [START] Beginning hotel crawl | base_url: https://www.luxe.ru/geo/maldives/hotels
+[2025-02-13 16:01:19] [ERROR] [scraper] [logger.py:113] [CONFIG] Failed to create browser configuration
+================================================================================
+Error ID: 20250213_120119_c34506b2
+Error: BrowserConfig.__init__() got an unexpected keyword argument 'launch_options'
+================================================================================ | error_id: 20250213_120119_c34506b2 | error: BrowserConfig.__init__() got an unexpected keyword argument 'launch_options'
+Traceback (most recent call last):
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\utils\scraper_utils.py", line 32, in get_browser_config
+    config = BrowserConfig(
+             ^^^^^^^^^^^^^^
+TypeError: BrowserConfig.__init__() got an unexpected keyword argument 'launch_options'
+[2025-02-13 16:01:19] [CRITICAL] [crawler] [logger.py:127] [CONFIG] Failed to initialize crawler configuration
+================================================================================
+Error ID: 20250213_120119_d70c0288
+Error: BrowserConfig.__init__() got an unexpected keyword argument 'launch_options'
+================================================================================ | error_id: 20250213_120119_d70c0288 | error: BrowserConfig.__init__() got an unexpected keyword argument 'launch_options'
+Traceback (most recent call last):
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\main.py", line 32, in crawl_hotels
+    browser_config = get_browser_config()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\utils\scraper_utils.py", line 32, in get_browser_config
+    config = BrowserConfig(
+             ^^^^^^^^^^^^^^
+TypeError: BrowserConfig.__init__() got an unexpected keyword argument 'launch_options'
+[2025-02-13 16:01:19] [CRITICAL] [crawler] [logger.py:127] [FATAL] Crawl failed with error
+================================================================================
+Error ID: 20250213_120119_46936a43
+Error: BrowserConfig.__init__() got an unexpected keyword argument 'launch_options'
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\denni\Documents\deepseek-ai-web-crawler\main.py", line 32, in crawl_hotels
+      browser_config = get_browser_config()
+                       ^^^^^^^^^^^^^^^^^^^^
+    File "C:\Users\denni\Documents\deepseek-ai-web-crawler\utils\scraper_utils.py", line 32, in get_browser_config
+      config = BrowserConfig(
+               ^^^^^^^^^^^^^^
+  TypeError: BrowserConfig.__init__() got an unexpected keyword argument 'launch_options'
+  
+================================================================================ | error_id: 20250213_120119_46936a43 | error: BrowserConfig.__init__() got an unexpected keyword argument 'launch_options' | traceback: Traceback (most recent call last):
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\main.py", line 32, in crawl_hotels
+    browser_config = get_browser_config()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\utils\scraper_utils.py", line 32, in get_browser_config
+    config = BrowserConfig(
+             ^^^^^^^^^^^^^^
+TypeError: BrowserConfig.__init__() got an unexpected keyword argument 'launch_options'
+Traceback (most recent call last):
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\main.py", line 32, in crawl_hotels
+    browser_config = get_browser_config()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\utils\scraper_utils.py", line 32, in get_browser_config
+    config = BrowserConfig(
+             ^^^^^^^^^^^^^^
+TypeError: BrowserConfig.__init__() got an unexpected keyword argument 'launch_options'
+[2025-02-13 16:01:19] [CRITICAL] [crawler] [logger.py:127] [FATAL] Application terminated with error
+================================================================================
+Error ID: 20250213_120119_9e628bd1
+Error: BrowserConfig.__init__() got an unexpected keyword argument 'launch_options'
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\denni\Documents\deepseek-ai-web-crawler\main.py", line 209, in main
+      await crawl_hotels()
+    File "C:\Users\denni\Documents\deepseek-ai-web-crawler\main.py", line 32, in crawl_hotels
+      browser_config = get_browser_config()
+                       ^^^^^^^^^^^^^^^^^^^^
+    File "C:\Users\denni\Documents\deepseek-ai-web-crawler\utils\scraper_utils.py", line 32, in get_browser_config
+      config = BrowserConfig(
+               ^^^^^^^^^^^^^^
+  TypeError: BrowserConfig.__init__() got an unexpected keyword argument 'launch_options'
+  
+================================================================================ | error_id: 20250213_120119_9e628bd1 | error: BrowserConfig.__init__() got an unexpected keyword argument 'launch_options' | traceback: Traceback (most recent call last):
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\main.py", line 209, in main
+    await crawl_hotels()
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\main.py", line 32, in crawl_hotels
+    browser_config = get_browser_config()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\utils\scraper_utils.py", line 32, in get_browser_config
+    config = BrowserConfig(
+             ^^^^^^^^^^^^^^
+TypeError: BrowserConfig.__init__() got an unexpected keyword argument 'launch_options'
+Traceback (most recent call last):
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\main.py", line 209, in main
+    await crawl_hotels()
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\main.py", line 32, in crawl_hotels
+    browser_config = get_browser_config()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\utils\scraper_utils.py", line 32, in get_browser_config
+    config = BrowserConfig(
+             ^^^^^^^^^^^^^^
+TypeError: BrowserConfig.__init__() got an unexpected keyword argument 'launch_options'
+[2025-02-13 16:03:43] [INFO] [data] [logger.py:99] [INIT] Logger initialized | logger_name: data
+[2025-02-13 16:03:43] [INFO] [scraper] [logger.py:99] [INIT] Logger initialized | logger_name: scraper
+[2025-02-13 16:03:43] [INFO] [crawler] [logger.py:99] [INIT] Logger initialized | logger_name: crawler
+[2025-02-13 16:03:43] [INFO] [crawler] [logger.py:99] [START] Beginning hotel crawl | base_url: https://www.luxe.ru/geo/maldives/hotels
+[2025-02-13 16:03:43] [ERROR] [scraper] [logger.py:113] [CONFIG] Failed to create browser configuration
+================================================================================
+Error ID: 20250213_120343_19747fae
+Error: BrowserConfig.__init__() got an unexpected keyword argument 'launch_options'
+================================================================================ | error_id: 20250213_120343_19747fae | error: BrowserConfig.__init__() got an unexpected keyword argument 'launch_options'
+Traceback (most recent call last):
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\utils\scraper_utils.py", line 32, in get_browser_config
+    config = BrowserConfig(
+             ^^^^^^^^^^^^^^
+TypeError: BrowserConfig.__init__() got an unexpected keyword argument 'launch_options'
+[2025-02-13 16:03:43] [CRITICAL] [crawler] [logger.py:127] [CONFIG] Failed to initialize crawler configuration
+================================================================================
+Error ID: 20250213_120343_b62cc8b5
+Error: BrowserConfig.__init__() got an unexpected keyword argument 'launch_options'
+================================================================================ | error_id: 20250213_120343_b62cc8b5 | error: BrowserConfig.__init__() got an unexpected keyword argument 'launch_options'
+Traceback (most recent call last):
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\main.py", line 32, in crawl_hotels
+    browser_config = get_browser_config()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\utils\scraper_utils.py", line 32, in get_browser_config
+    config = BrowserConfig(
+             ^^^^^^^^^^^^^^
+TypeError: BrowserConfig.__init__() got an unexpected keyword argument 'launch_options'
+[2025-02-13 16:03:43] [CRITICAL] [crawler] [logger.py:127] [FATAL] Crawl failed with error
+================================================================================
+Error ID: 20250213_120343_c6461111
+Error: BrowserConfig.__init__() got an unexpected keyword argument 'launch_options'
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\denni\Documents\deepseek-ai-web-crawler\main.py", line 32, in crawl_hotels
+      browser_config = get_browser_config()
+                       ^^^^^^^^^^^^^^^^^^^^
+    File "C:\Users\denni\Documents\deepseek-ai-web-crawler\utils\scraper_utils.py", line 32, in get_browser_config
+      config = BrowserConfig(
+               ^^^^^^^^^^^^^^
+  TypeError: BrowserConfig.__init__() got an unexpected keyword argument 'launch_options'
+  
+================================================================================ | error_id: 20250213_120343_c6461111 | error: BrowserConfig.__init__() got an unexpected keyword argument 'launch_options' | traceback: Traceback (most recent call last):
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\main.py", line 32, in crawl_hotels
+    browser_config = get_browser_config()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\utils\scraper_utils.py", line 32, in get_browser_config
+    config = BrowserConfig(
+             ^^^^^^^^^^^^^^
+TypeError: BrowserConfig.__init__() got an unexpected keyword argument 'launch_options'
+Traceback (most recent call last):
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\main.py", line 32, in crawl_hotels
+    browser_config = get_browser_config()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\utils\scraper_utils.py", line 32, in get_browser_config
+    config = BrowserConfig(
+             ^^^^^^^^^^^^^^
+TypeError: BrowserConfig.__init__() got an unexpected keyword argument 'launch_options'
+[2025-02-13 16:03:43] [CRITICAL] [crawler] [logger.py:127] [FATAL] Application terminated with error
+================================================================================
+Error ID: 20250213_120343_008ba692
+Error: BrowserConfig.__init__() got an unexpected keyword argument 'launch_options'
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\denni\Documents\deepseek-ai-web-crawler\main.py", line 209, in main
+      await crawl_hotels()
+    File "C:\Users\denni\Documents\deepseek-ai-web-crawler\main.py", line 32, in crawl_hotels
+      browser_config = get_browser_config()
+                       ^^^^^^^^^^^^^^^^^^^^
+    File "C:\Users\denni\Documents\deepseek-ai-web-crawler\utils\scraper_utils.py", line 32, in get_browser_config
+      config = BrowserConfig(
+               ^^^^^^^^^^^^^^
+  TypeError: BrowserConfig.__init__() got an unexpected keyword argument 'launch_options'
+  
+================================================================================ | error_id: 20250213_120343_008ba692 | error: BrowserConfig.__init__() got an unexpected keyword argument 'launch_options' | traceback: Traceback (most recent call last):
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\main.py", line 209, in main
+    await crawl_hotels()
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\main.py", line 32, in crawl_hotels
+    browser_config = get_browser_config()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\utils\scraper_utils.py", line 32, in get_browser_config
+    config = BrowserConfig(
+             ^^^^^^^^^^^^^^
+TypeError: BrowserConfig.__init__() got an unexpected keyword argument 'launch_options'
+Traceback (most recent call last):
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\main.py", line 209, in main
+    await crawl_hotels()
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\main.py", line 32, in crawl_hotels
+    browser_config = get_browser_config()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\utils\scraper_utils.py", line 32, in get_browser_config
+    config = BrowserConfig(
+             ^^^^^^^^^^^^^^
+TypeError: BrowserConfig.__init__() got an unexpected keyword argument 'launch_options'
+[2025-02-13 16:07:31] [INFO] [data] [logger.py:99] [INIT] Logger initialized | logger_name: data
+[2025-02-13 16:07:31] [INFO] [scraper] [logger.py:99] [INIT] Logger initialized | logger_name: scraper
+[2025-02-13 16:07:31] [INFO] [crawler] [logger.py:99] [INIT] Logger initialized | logger_name: crawler
+[2025-02-13 16:07:31] [INFO] [crawler] [logger.py:99] [START] Beginning hotel crawl | base_url: https://www.luxe.ru/geo/maldives/hotels
+[2025-02-13 16:07:31] [ERROR] [scraper] [logger.py:113] [CONFIG] Failed to create browser configuration
+================================================================================
+Error ID: 20250213_120731_1caf984f
+Error: BrowserConfig.__init__() got an unexpected keyword argument 'args'
+================================================================================ | error_id: 20250213_120731_1caf984f | error: BrowserConfig.__init__() got an unexpected keyword argument 'args'
+Traceback (most recent call last):
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\utils\scraper_utils.py", line 32, in get_browser_config
+    config = BrowserConfig(
+             ^^^^^^^^^^^^^^
+TypeError: BrowserConfig.__init__() got an unexpected keyword argument 'args'
+[2025-02-13 16:07:31] [CRITICAL] [crawler] [logger.py:127] [CONFIG] Failed to initialize crawler configuration
+================================================================================
+Error ID: 20250213_120731_945f78b6
+Error: BrowserConfig.__init__() got an unexpected keyword argument 'args'
+================================================================================ | error_id: 20250213_120731_945f78b6 | error: BrowserConfig.__init__() got an unexpected keyword argument 'args'
+Traceback (most recent call last):
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\main.py", line 32, in crawl_hotels
+    browser_config = get_browser_config()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\utils\scraper_utils.py", line 32, in get_browser_config
+    config = BrowserConfig(
+             ^^^^^^^^^^^^^^
+TypeError: BrowserConfig.__init__() got an unexpected keyword argument 'args'
+[2025-02-13 16:07:31] [CRITICAL] [crawler] [logger.py:127] [FATAL] Crawl failed with error
+================================================================================
+Error ID: 20250213_120731_089a539d
+Error: BrowserConfig.__init__() got an unexpected keyword argument 'args'
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\denni\Documents\deepseek-ai-web-crawler\main.py", line 32, in crawl_hotels
+      browser_config = get_browser_config()
+                       ^^^^^^^^^^^^^^^^^^^^
+    File "C:\Users\denni\Documents\deepseek-ai-web-crawler\utils\scraper_utils.py", line 32, in get_browser_config
+      config = BrowserConfig(
+               ^^^^^^^^^^^^^^
+  TypeError: BrowserConfig.__init__() got an unexpected keyword argument 'args'
+  
+================================================================================ | error_id: 20250213_120731_089a539d | error: BrowserConfig.__init__() got an unexpected keyword argument 'args' | traceback: Traceback (most recent call last):
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\main.py", line 32, in crawl_hotels
+    browser_config = get_browser_config()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\utils\scraper_utils.py", line 32, in get_browser_config
+    config = BrowserConfig(
+             ^^^^^^^^^^^^^^
+TypeError: BrowserConfig.__init__() got an unexpected keyword argument 'args'
+Traceback (most recent call last):
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\main.py", line 32, in crawl_hotels
+    browser_config = get_browser_config()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\utils\scraper_utils.py", line 32, in get_browser_config
+    config = BrowserConfig(
+             ^^^^^^^^^^^^^^
+TypeError: BrowserConfig.__init__() got an unexpected keyword argument 'args'
+[2025-02-13 16:07:31] [CRITICAL] [crawler] [logger.py:127] [FATAL] Application terminated with error
+================================================================================
+Error ID: 20250213_120731_207af65b
+Error: BrowserConfig.__init__() got an unexpected keyword argument 'args'
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\denni\Documents\deepseek-ai-web-crawler\main.py", line 209, in main
+      await crawl_hotels()
+    File "C:\Users\denni\Documents\deepseek-ai-web-crawler\main.py", line 32, in crawl_hotels
+      browser_config = get_browser_config()
+                       ^^^^^^^^^^^^^^^^^^^^
+    File "C:\Users\denni\Documents\deepseek-ai-web-crawler\utils\scraper_utils.py", line 32, in get_browser_config
+      config = BrowserConfig(
+               ^^^^^^^^^^^^^^
+  TypeError: BrowserConfig.__init__() got an unexpected keyword argument 'args'
+  
+================================================================================ | error_id: 20250213_120731_207af65b | error: BrowserConfig.__init__() got an unexpected keyword argument 'args' | traceback: Traceback (most recent call last):
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\main.py", line 209, in main
+    await crawl_hotels()
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\main.py", line 32, in crawl_hotels
+    browser_config = get_browser_config()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\utils\scraper_utils.py", line 32, in get_browser_config
+    config = BrowserConfig(
+             ^^^^^^^^^^^^^^
+TypeError: BrowserConfig.__init__() got an unexpected keyword argument 'args'
+Traceback (most recent call last):
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\main.py", line 209, in main
+    await crawl_hotels()
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\main.py", line 32, in crawl_hotels
+    browser_config = get_browser_config()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\denni\Documents\deepseek-ai-web-crawler\utils\scraper_utils.py", line 32, in get_browser_config
+    config = BrowserConfig(
+             ^^^^^^^^^^^^^^
+TypeError: BrowserConfig.__init__() got an unexpected keyword argument 'args'
+[2025-02-13 16:18:42] [INFO] [data] [logger.py:101] [INIT] Logger initialized | logger_name: data
+[2025-02-13 16:18:42] [INFO] [scraper] [logger.py:101] [INIT] Logger initialized | logger_name: scraper
+[2025-02-13 16:18:42] [INFO] [crawler] [logger.py:101] [INIT] Logger initialized | logger_name: crawler
+[2025-02-13 16:18:42] [INFO] [crawler] [logger.py:101] [START] Beginning hotel crawl | base_url: https://www.luxe.ru/geo/maldives/hotels
+[2025-02-13 16:18:42] [INFO] [scraper] [logger.py:101] [CONFIG] Browser configuration created successfully
+[2025-02-13 16:18:42] [INFO] [scraper] [logger.py:101] [CONFIG] LLM strategy created successfully
+[2025-02-13 16:18:42] [INFO] [crawler] [logger.py:101] [CONFIG] Initialized crawler configuration | session_id: hotel_crawl_20250213_121842 | css_selector: .hotel-card | required_keys: ['name', 'hotel_type', 'discount', 'stars', 'image_urls', 'description', 'room_types', 'meal_plan', 'facilities', 'location', 'price', 'check_in', 'check_out', 'adults', 'children', 'url']
+[2025-02-13 16:18:43] [INFO] [scraper] [logger.py:101] [PAGE] Processing page 1 | url: https://www.luxe.ru/geo/maldives/hotels?page=1
+[2025-02-13 16:18:46] [INFO] [scraper] [logger.py:101] [FETCH] https://www.luxe.ru/geo/maldives/hotels?page=1 | status: success | time: 3.32s
+[2025-02-13 16:19:11] [ERROR] [scraper] [logger.py:118] [FETCH] Failed to fetch page 1
+================================================================================
+Error ID: 20250213_121911_0d08d337
+Error: Unexpected error in _crawl_web at line 202 in extract (..\..\AppData\Roaming\Python\Python312\site-packages\crawl4ai\extraction_strategy.py):
+Error: 'list' object has no attribute 'usage'
+
+Code context:
+ 197               base_url=self.api_base or self.base_url,
+ 198               extra_args = self.extra_args
+ 199               ) # , json_response=self.extract_type == "schema")
+ 200           # Track usage
+ 201           usage = TokenUsage(
+ 202 →             completion_tokens=response.usage.completion_tokens,
+ 203               prompt_tokens=response.usage.prompt_tokens,
+ 204               total_tokens=response.usage.total_tokens,
+ 205               completion_tokens_details=response.usage.completion_tokens_details.__dict__ if response.usage.completion_tokens_details else {},
+ 206               prompt_tokens_details=response.usage.prompt_tokens_details.__dict__ if response.usage.prompt_tokens_details else {}
+ 207           )
+================================================================================ | error_id: 20250213_121911_0d08d337 | url: https://www.luxe.ru/geo/maldives/hotels?page=1 | error: Unexpected error in _crawl_web at line 202 in extract (..\..\AppData\Roaming\Python\Python312\site-packages\crawl4ai\extraction_strategy.py):
+Error: 'list' object has no attribute 'usage'
+
+Code context:
+ 197               base_url=self.api_base or self.base_url,
+ 198               extra_args = self.extra_args
+ 199               ) # , json_response=self.extract_type == "schema")
+ 200           # Track usage
+ 201           usage = TokenUsage(
+ 202 →             completion_tokens=response.usage.completion_tokens,
+ 203               prompt_tokens=response.usage.prompt_tokens,
+ 204               total_tokens=response.usage.total_tokens,
+ 205               completion_tokens_details=response.usage.completion_tokens_details.__dict__ if response.usage.completion_tokens_details else {},
+ 206               prompt_tokens_details=response.usage.prompt_tokens_details.__dict__ if response.usage.prompt_tokens_details else {}
+ 207           )
+NoneType: None
+[2025-02-13 16:19:11] [WARNING] [crawler] [logger.py:105] [EXTRACT] No hotels extracted from page 1 | time: 28.10s | total_processed: 1 | total_hotels: 0
+[2025-02-13 16:19:11] [INFO] [crawler] [logger.py:101] [RETRY] Attempting retry 1 of 3 | page: 1
+[2025-02-13 16:19:16] [INFO] [scraper] [logger.py:101] [PAGE] Processing page 1 | url: https://www.luxe.ru/geo/maldives/hotels?page=1
+[2025-02-13 16:19:16] [INFO] [scraper] [logger.py:101] [FETCH] https://www.luxe.ru/geo/maldives/hotels?page=1 | status: success | time: 0.59s
+[2025-02-13 16:19:37] [ERROR] [scraper] [logger.py:118] [FETCH] Failed to fetch page 1
+================================================================================
+Error ID: 20250213_121937_11f1ef6a
+Error: Unexpected error in _crawl_web at line 202 in extract (..\..\AppData\Roaming\Python\Python312\site-packages\crawl4ai\extraction_strategy.py):
+Error: 'list' object has no attribute 'usage'
+
+Code context:
+ 197               base_url=self.api_base or self.base_url,
+ 198               extra_args = self.extra_args
+ 199               ) # , json_response=self.extract_type == "schema")
+ 200           # Track usage
+ 201           usage = TokenUsage(
+ 202 →             completion_tokens=response.usage.completion_tokens,
+ 203               prompt_tokens=response.usage.prompt_tokens,
+ 204               total_tokens=response.usage.total_tokens,
+ 205               completion_tokens_details=response.usage.completion_tokens_details.__dict__ if response.usage.completion_tokens_details else {},
+ 206               prompt_tokens_details=response.usage.prompt_tokens_details.__dict__ if response.usage.prompt_tokens_details else {}
+ 207           )
+================================================================================ | error_id: 20250213_121937_11f1ef6a | url: https://www.luxe.ru/geo/maldives/hotels?page=1 | error: Unexpected error in _crawl_web at line 202 in extract (..\..\AppData\Roaming\Python\Python312\site-packages\crawl4ai\extraction_strategy.py):
+Error: 'list' object has no attribute 'usage'
+
+Code context:
+ 197               base_url=self.api_base or self.base_url,
+ 198               extra_args = self.extra_args
+ 199               ) # , json_response=self.extract_type == "schema")
+ 200           # Track usage
+ 201           usage = TokenUsage(
+ 202 →             completion_tokens=response.usage.completion_tokens,
+ 203               prompt_tokens=response.usage.prompt_tokens,
+ 204               total_tokens=response.usage.total_tokens,
+ 205               completion_tokens_details=response.usage.completion_tokens_details.__dict__ if response.usage.completion_tokens_details else {},
+ 206               prompt_tokens_details=response.usage.prompt_tokens_details.__dict__ if response.usage.prompt_tokens_details else {}
+ 207           )
+NoneType: None
+[2025-02-13 16:19:37] [WARNING] [crawler] [logger.py:105] [EXTRACT] No hotels extracted from page 1 | time: 21.06s | total_processed: 2 | total_hotels: 0
+[2025-02-13 16:19:37] [INFO] [crawler] [logger.py:101] [RETRY] Attempting retry 2 of 3 | page: 1
+[2025-02-13 16:19:42] [INFO] [scraper] [logger.py:101] [PAGE] Processing page 1 | url: https://www.luxe.ru/geo/maldives/hotels?page=1
+[2025-02-13 16:19:43] [INFO] [scraper] [logger.py:101] [FETCH] https://www.luxe.ru/geo/maldives/hotels?page=1 | status: success | time: 0.60s
+[2025-02-13 16:20:03] [ERROR] [scraper] [logger.py:118] [FETCH] Failed to fetch page 1
+================================================================================
+Error ID: 20250213_122003_1a891a78
+Error: Unexpected error in _crawl_web at line 202 in extract (..\..\AppData\Roaming\Python\Python312\site-packages\crawl4ai\extraction_strategy.py):
+Error: 'list' object has no attribute 'usage'
+
+Code context:
+ 197               base_url=self.api_base or self.base_url,
+ 198               extra_args = self.extra_args
+ 199               ) # , json_response=self.extract_type == "schema")
+ 200           # Track usage
+ 201           usage = TokenUsage(
+ 202 →             completion_tokens=response.usage.completion_tokens,
+ 203               prompt_tokens=response.usage.prompt_tokens,
+ 204               total_tokens=response.usage.total_tokens,
+ 205               completion_tokens_details=response.usage.completion_tokens_details.__dict__ if response.usage.completion_tokens_details else {},
+ 206               prompt_tokens_details=response.usage.prompt_tokens_details.__dict__ if response.usage.prompt_tokens_details else {}
+ 207           )
+================================================================================ | error_id: 20250213_122003_1a891a78 | url: https://www.luxe.ru/geo/maldives/hotels?page=1 | error: Unexpected error in _crawl_web at line 202 in extract (..\..\AppData\Roaming\Python\Python312\site-packages\crawl4ai\extraction_strategy.py):
+Error: 'list' object has no attribute 'usage'
+
+Code context:
+ 197               base_url=self.api_base or self.base_url,
+ 198               extra_args = self.extra_args
+ 199               ) # , json_response=self.extract_type == "schema")
+ 200           # Track usage
+ 201           usage = TokenUsage(
+ 202 →             completion_tokens=response.usage.completion_tokens,
+ 203               prompt_tokens=response.usage.prompt_tokens,
+ 204               total_tokens=response.usage.total_tokens,
+ 205               completion_tokens_details=response.usage.completion_tokens_details.__dict__ if response.usage.completion_tokens_details else {},
+ 206               prompt_tokens_details=response.usage.prompt_tokens_details.__dict__ if response.usage.prompt_tokens_details else {}
+ 207           )
+NoneType: None
+[2025-02-13 16:20:03] [WARNING] [crawler] [logger.py:105] [EXTRACT] No hotels extracted from page 1 | time: 20.84s | total_processed: 3 | total_hotels: 0
+[2025-02-13 16:20:03] [INFO] [crawler] [logger.py:101] [RETRY] Attempting retry 3 of 3 | page: 1
+[2025-02-13 16:20:08] [INFO] [scraper] [logger.py:101] [PAGE] Processing page 1 | url: https://www.luxe.ru/geo/maldives/hotels?page=1
+[2025-02-13 16:20:08] [INFO] [scraper] [logger.py:101] [FETCH] https://www.luxe.ru/geo/maldives/hotels?page=1 | status: success | time: 0.58s
+[2025-02-13 16:20:29] [ERROR] [scraper] [logger.py:118] [FETCH] Failed to fetch page 1
+================================================================================
+Error ID: 20250213_122029_0c9f9a86
+Error: Unexpected error in _crawl_web at line 202 in extract (..\..\AppData\Roaming\Python\Python312\site-packages\crawl4ai\extraction_strategy.py):
+Error: 'list' object has no attribute 'usage'
+
+Code context:
+ 197               base_url=self.api_base or self.base_url,
+ 198               extra_args = self.extra_args
+ 199               ) # , json_response=self.extract_type == "schema")
+ 200           # Track usage
+ 201           usage = TokenUsage(
+ 202 →             completion_tokens=response.usage.completion_tokens,
+ 203               prompt_tokens=response.usage.prompt_tokens,
+ 204               total_tokens=response.usage.total_tokens,
+ 205               completion_tokens_details=response.usage.completion_tokens_details.__dict__ if response.usage.completion_tokens_details else {},
+ 206               prompt_tokens_details=response.usage.prompt_tokens_details.__dict__ if response.usage.prompt_tokens_details else {}
+ 207           )
+================================================================================ | error_id: 20250213_122029_0c9f9a86 | url: https://www.luxe.ru/geo/maldives/hotels?page=1 | error: Unexpected error in _crawl_web at line 202 in extract (..\..\AppData\Roaming\Python\Python312\site-packages\crawl4ai\extraction_strategy.py):
+Error: 'list' object has no attribute 'usage'
+
+Code context:
+ 197               base_url=self.api_base or self.base_url,
+ 198               extra_args = self.extra_args
+ 199               ) # , json_response=self.extract_type == "schema")
+ 200           # Track usage
+ 201           usage = TokenUsage(
+ 202 →             completion_tokens=response.usage.completion_tokens,
+ 203               prompt_tokens=response.usage.prompt_tokens,
+ 204               total_tokens=response.usage.total_tokens,
+ 205               completion_tokens_details=response.usage.completion_tokens_details.__dict__ if response.usage.completion_tokens_details else {},
+ 206               prompt_tokens_details=response.usage.prompt_tokens_details.__dict__ if response.usage.prompt_tokens_details else {}
+ 207           )
+NoneType: None
+[2025-02-13 16:20:29] [WARNING] [crawler] [logger.py:105] [EXTRACT] No hotels extracted from page 1 | time: 21.36s | total_processed: 4 | total_hotels: 0
+[2025-02-13 16:20:29] [ERROR] [crawler] [logger.py:118] [RETRY] Max retries (3) reached
+================================================================================
+Error ID: 20250213_122029_60d65fb8
+Error: 
+================================================================================ | error_id: 20250213_122029_60d65fb8 | page: 1
+NoneType: None
+[2025-02-13 16:20:29] [WARNING] [crawler] [logger.py:105] [SAVE] No hotels were found during the crawl | pages_processed: 4
+[2025-02-13 16:20:29] [INFO] [crawler] [logger.py:101] [COMPLETE] Crawl finished | total_time: 107.49s | total_pages: 4 | total_hotels_found: 0 | total_hotels_saved: 0 | total_hotels_skipped: 0
